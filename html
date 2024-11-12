@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCBFlix</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="base">
+    <h1 class="logo">UCBFlix</h1>
+    <ul class="menu">
+        <li>Inicio</li>
+        <li class="barra">Séries
+            <ul class="menu-barra">
+                <li>Ação</li>
+                <li>Comédia</li>
+                <li>Drama</li>
+                <li>Terror</li>   
+            </ul>
+        </li>
+        <li class="barra">Filmes
+            <ul class="menu-barra">
+                <li>Ação</li>
+                <li>Comédia</li>
+                <li>Drama</li>
+                <li>Terror</li>   
+            </ul>
+        </li>
+        <li class="barra">Jogos
+            <ul class="menu-barra">
+                <li>Aventura</li>
+                <li>Indie</li>
+                <li>Terror</li>
+            </ul>
+        </li>
+        <li class="barra">Desenhos</li>
+        <li class="barra">Minha Lista</li>
+        
+    </ul>
+        <input class="pesq" type="text" placeholder="Gente Grande 2">
+    </div>
+    <div class="perfil">
+        <img src="data:image/jpeg;base64,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">
+        <ul class="menu-perfil">
+            <li>Conta</li>
+            <li>Configurações</li>
+            <li>Sair</li>
+        </ul>
+    </div>
+    </nav>
+    <div class="carrossel">
+        <div id="netflixCarousel1" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <h2 class="titulo">Séries em Alta</h2>
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="imagens/1899.jfif" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/dark.jfif" class="d-block w-100" alt="Imagem 2">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/money.jfif" class="d-block w-100" alt="Imagem 3">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/stranger.jfif" class="d-block w-100" alt="Imagem 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="imagens/vandinha.jfif" class="d-block w-100" alt="Imagem 5">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/gray.jfif" class="d-block w-100" alt="Imagem 6">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/riverdale.jfif" class="d-block w-100" alt="Imagem 7">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/senna.jfif" class="d-block w-100" alt="Imagem 8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#netflixCarousel1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#netflixCarousel1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>    
+        </div>
+
+        <div id="netflixCarousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <h2 class="titulo">Filmes em Alta</h2>
+                <div class="carousel-item active">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="imagens/coringa.jfif" class="d-block w-100" alt="Imagem 1">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/avatar.jfif" class="d-block w-100" alt="Imagem 2">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/dune.jfif" class="d-block w-100" alt="Imagem 3">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/gntgrande.jfif" class="d-block w-100" alt="Imagem 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="carousel-item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-3">
+                                <img src="imagens/harrypoter.jfif" class="d-block w-100" alt="Imagem 5">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/titanic.jfif" class="d-block w-100" alt="Imagem 6">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/ultimato.jfif" class="d-block w-100" alt="Imagem 7">
+                            </div>
+                            <div class="col-3">
+                                <img src="imagens/us.jfif" class="d-block w-100" alt="Imagem 8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#netflixCarousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#netflixCarousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>    
+        </div>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
